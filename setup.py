@@ -20,7 +20,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/wangqunsong/whisper",
     packages=setuptools.find_packages(),
-    install_requires=['Pillow>=5.1.0', 'numpy==1.14.4'],
+    install_requires=['Pillow>=5.1.0', 'numpy==1.22.0'],
     entry_points={
         'console_scripts': [
             'whisper=whisper:main'
